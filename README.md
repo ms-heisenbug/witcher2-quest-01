@@ -11,9 +11,9 @@
 <li>Find the entity template of character (not player) you want to be in a dialogue, go to tab Voicetags and make sure that his <b>Voicetag</b> is the one left from the appearance.</li>
   <li>Go back to <b>Scene script</b> and in tab <b>Actors definitions</b> we have to link out NPCs to the dialogue (Geralt will be added automatically):</li>
   <ul>
-    &emsp;<li>give NPC <b>Actor tag</b> which comes from tag from Appearance in its Entity template</li>
-    &emsp;<li>as <b>Actor template</b> add Entity template from folder</li>
-    &emsp;<li>finally add <b>Voicetag</b> of NPC</li>
+    <li>give NPC <b>Actor tag</b> which comes from tag from Appearance in its Entity template</li>
+    <li>as <b>Actor template</b> add Entity template from folder</li>
+    <li>finally add <b>Voicetag</b> of NPC</li>
   </ul>
   <li>Write scene in <b>Scene script</b> tab, connect sections in diagram tree and name every Output.</li>
   <li>Creating choice in dialogue:</li>
