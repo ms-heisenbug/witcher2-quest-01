@@ -3,7 +3,7 @@
 ## Creating dialogue
 
 <ol>
-  <li>Create resource **Scene script**.</li>
+  <li>Create resource <b>Scene script</b>.</li>
 <li>Open it.</li>
 <li>Input is teh start and Output is the end of dialogue.</li>
   <li>Add <b>Section</b> which is like a chapter of dialogue (or sth like a scene in a script).</li>
