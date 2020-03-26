@@ -2,17 +2,19 @@
 
 ## Creating dialogue
 
-1. Create resource **Scene script**.
-2. Open it.
-3. Input is teh start and Output is the end of dialogue.
-4. Add **section** which is like a chapter of dialogue (or sth like a scene in a script).
-5. Name the section.
-6. Find the entity template of character (not player) you want to be in a dialogue, go to tab Voicetags and make sure that his **Voicetag** is the one left from the appearance.
-7. Go back to **Scene script** and in tab **Actors definitions** we have to link out NPCs to the dialogue (Geralt will be added automatically):
-_______-_ give NPC **Actor tag** which comes from tag from Appearance in its Entity template
-- as **Actor template** add Entity template from folder
-- finally add **Voicetag** of NPC
-
+<ol>
+  <li>Create resource **Scene script**.</li>
+<li>Open it.</li>
+<li>Input is teh start and Output is the end of dialogue.</li>
+<li>Add **section** which is like a chapter of dialogue (or sth like a scene in a script).</li>
+<li>Name the section.</li>
+<li>Find the entity template of character (not player) you want to be in a dialogue, go to tab Voicetags and make sure that his **Voicetag** is the one left from the appearance.</li>
+<li>Go back to **Scene script** and in tab **Actors definitions** we have to link out NPCs to the dialogue (Geralt will be added automatically):</li>
+  <ul>
+&emsp<li>give NPC **Actor tag** which comes from tag from Appearance in its Entity template</li>
+&emsp<li>as **Actor template** add Entity template from folder</li>
+&emsp<li>finally add **Voicetag** of NPC</li>
+  </ul>
 8. Write scene in **Scene script** tab, connect sections in diagram tree and name every Output.
 9. Creating choice in dialogue:
 - TODO
@@ -26,4 +28,4 @@ _______-_ give NPC **Actor tag** which comes from tag from Appearance in its Ent
 - add **Scenes -> Interaction dialog**
 - in scene add file of scene by clicking green arrow
 - **actorTags** is indicating which NPS you have to click to acivate the dialogue
-  
+</ol>  
