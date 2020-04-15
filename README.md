@@ -11,7 +11,19 @@
     <li>In scene add new group and new laer</li>
     <li>Make sky layer active</li>
     <li>Find skybox in Asset browser</li>
-    <li>Drag and drop skybox on world<li>
+    <li>Drag and drop skybox on world (but on platform, not on the black surronding!)</li>
+  </ul>
+  <lil>Adding areas:</li>
+  <ul>
+    <li>Create new gorup and layer</li>
+    <li>Right click on world -> Close active tool</li>
+    <li>Right click on world -> Graphics -> Add area environment</li>
+  </ul>
+  <li>Creating day/night cycle<li>
+  <ul>
+    <li>Tools -> World environment -> Fake daycycle -> Enable<li>
+    <li>Unclick World environment and click it again</li>
+    <li>New option popped up -> click AreaEnvvironment0</li>
   </ul>
 </ol>
 
