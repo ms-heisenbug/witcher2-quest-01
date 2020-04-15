@@ -1,5 +1,20 @@
 # witcher 2 quest
 
+## Creating new world
+
+<ol>
+  <li>File -> New World</li>
+  <li>Tools -> Terrain tools -> Create/modify terrain</li>
+  <li>Materials -> change lores terrain to tile 000x000 -> Asset browser -> Add material from asset browser</li>
+  <li>Adding sky:</li>
+  <ul>
+    <li>In scene add new group and new laer</li>
+    <li>Make sky layer active</li>
+    <li>Find skybox in Asset browser</li>
+    <li>Drag and drop skybox on world<li>
+  </ul>
+</ol>
+
 ## Creating dialogue
 
 <ol>
