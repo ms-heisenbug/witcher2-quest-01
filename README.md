@@ -58,3 +58,21 @@
    <li><b>actorTags</b> is indicating which NPS you have to click to acivate the dialogue</li>
   </ul>
 </ol>  
+
+
+## How to make an interactive object:
+1) Copy entity template of an object you want Geralt to interact with (for example some book) and open the copy;
+2) Right-click on the Components field (over the panel with Template properties, Body parts etc.) and choose [Create 'CInteractionComponent'];
+3) Click on newly created Interaction Component and choose Node properties from the panel below;
+4) There are many options to customize said Component, but for this to work you got to fill:
+- name (eg. read_book, examine_body);
+- friendlyName (eg. Read, Examine);
+- actionName (choose from drop-down menu, eg. Use);
+- change showHint, checkCameraVisibility and reportToScript flags to true;
+5) Save entity template, drag it into your level and tag it;
+
+How to use it:
+1) Create a Pause (right-click -> Flow control -> Pause) in your Quest file;
+2) Add [CQuestInteractionCondition] condition from the drop-down menu in Pause properties;
+3) Fill in interactionName (as above, eg. read_book, examine_body) and ownerTags (with tag you used for entity dragged into level);
+4) Now you need to connect Pause with the rest of your Quest flow and a script you want to trigger by interacting with object (like dialogue scene);
